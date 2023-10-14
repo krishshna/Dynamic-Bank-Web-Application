@@ -1,0 +1,24 @@
+*{margin:0 ;padding: 0;box-sizing: border-box;}
+
+.text-content {
+  margin: 20px; 
+}
+
+.image-grid {
+  display: flex;
+}
+
+.image-item {
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.image-item img {
+  width: 200px;
+  height: 300px;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
